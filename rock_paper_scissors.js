@@ -50,3 +50,11 @@ function determineWinner(userChoice, computerChoice) {
     }
   }
 }
+
+function playGame() {
+  userChoice = getUserChoice("rock");
+  computerChoice = getComputerChoice();
+  console.log(determineWinner(userChoice, computerChoice));
+}
+
+playGame();
